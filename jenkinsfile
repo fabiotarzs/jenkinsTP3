@@ -1,0 +1,15 @@
+pipelines{
+    stages{
+        stage("build1"){
+            steps("etape1")
+        }
+
+        stage("test2"){
+            steps("etape test")
+        }
+
+        stage("deploy"){
+            steps("etape de deploiement")
+        }
+    }
+}
